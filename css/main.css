@@ -1,0 +1,43 @@
+body{
+    background-color: 	#F8F8FF;
+}
+
+#container
+{
+    display: block;
+    margin-top: 5%;
+}
+
+#tar 
+{
+    border: 1px solid black;
+   border-radius: 30%;
+    padding: 3px;
+}
+
+#tc
+{
+    border: 1px solid black;
+    border-radius: 30%;
+    padding: 3px;
+}
+
+#form{
+    display: inline;
+}
+
+.submit{
+    text-decoration: none;
+    background-color: #4CAF50;
+    border: none;
+    color:  white;
+    padding: 3px 15px;
+}
+
+.clear{
+    text-decoration: none;
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 3px 15px;
+}
