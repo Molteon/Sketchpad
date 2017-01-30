@@ -1,26 +1,16 @@
 body{
-    background-color: 	#F8F8FF;
+    background-color: 	#F6F8FF;
 }
 
 #container
 {
-    display: block;
-    margin-top: 5%;
+    margin: 5% auto;
+    padding: 0px;
+    content: center;
 }
 
-#tar 
-{
-    border: 1px solid black;
-   border-radius: 30%;
-    padding: 3px;
-}
 
-#tc
-{
-    border: 1px solid black;
-    border-radius: 30%;
-    padding: 3px;
-}
+
 
 #form{
     display: inline;
@@ -41,3 +31,16 @@ body{
     color: white;
     padding: 3px 15px;
 }
+
+table{
+    background-color: white;
+    overflow: hidden;
+    height: 700px;
+    width: 600px;
+    border: 2px solid black;
+    padding: 0px;
+    margin: auto;
+    display: table;
+    border-spacing: 0px;
+}
+
