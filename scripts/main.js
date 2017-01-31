@@ -10,12 +10,41 @@ $(document).ready(function () {
 	//Ref for the button to clear the values.
 	var clearValues = $('#clearValues');
 
+	//Will store the chosen color.
+	var colorPicked = "";
+
 	//=============================================================================================================
 
-	// var colorBlue = $('#colorBlue');
-	// colorBlue.click(function () {
-	// 	var color = "blue";
-	// });
+	//Change the value of colorPicked.
+
+	var colorBlue = $('#colorBlue');
+	colorBlue.click(function () {
+		colorPicked = "blue";
+	});
+
+
+	var colorBlack = $('#colorBlack');
+	colorBlack.click(function () {
+		colorPicked = "black";
+	});
+
+
+	var colorGreen = $('#colorGreen');
+	colorGreen.click(function () {
+		colorPicked = 'green';
+	});
+
+
+	var colorRed = $('#colorRed');
+	colorRed.click(function () {
+		colorPicked = 'red';
+	});
+
+
+	var colorPink = $('#colorPink');
+	colorPink.click(function () {
+		colorPicked = 'pink';
+	});
 
 	//=============================================================================================================
 
@@ -47,9 +76,9 @@ $(document).ready(function () {
 				}
 			}
 
-			//Hovering on the td element will make its background-color black.
+			//Hovering on the td element will change its background-color .
 			$('td').hover(function () {
-				$(this).css("background-color", "black");
+				$(this).css("background-color", colorPicked);
 			});
 
 			//Changing the value of z to disable the function from running again + change its color.
@@ -57,6 +86,8 @@ $(document).ready(function () {
 			$('#submitValues').css("background-color", "grey");
 		}
 	});
+
+
 
 	//=============================================================================================================
 

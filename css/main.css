@@ -1,30 +1,26 @@
-body{
-    background-color: 	#F6F8FF;
+body {
+    background-color: #F6F8FF;
 }
 
-#container
-{
+#container {
     margin: 5% auto;
     padding: 0px;
     content: center;
 }
 
-
-
-
-#form{
+#form {
     display: inline;
 }
 
-.submit{
+.submit {
     text-decoration: none;
     background-color: #4CAF50;
     border: none;
-    color:  white;
+    color: white;
     padding: 3px 15px;
 }
 
-.clear{
+.clear {
     text-decoration: none;
     background-color: #f44336;
     border: none;
@@ -32,7 +28,7 @@ body{
     padding: 3px 15px;
 }
 
-table{
+table {
     background-color: white;
     overflow: hidden;
     height: 700px;
@@ -42,5 +38,54 @@ table{
     margin: auto;
     display: table;
     border-spacing: 0px;
+    position: relative;
 }
 
+.colorPink {
+    background-color: pink;
+    border: none;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.colorBlack {
+    background-color: black;
+    border: none;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.colorBlue {
+    background-color: blue;
+    border: none;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.colorGreen {
+    background-color: green;
+    border: none;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.colorRed {
+    background-color: red;
+    border: none;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+#buttonColors {
+    margin-top: -4%;
+}
